@@ -1,0 +1,7 @@
+{
+    "img_size": 256,
+    "img_type": "png",
+    "num_class": 1000,
+    "num_images": 1000,
+    "numof_thread": 40
+}

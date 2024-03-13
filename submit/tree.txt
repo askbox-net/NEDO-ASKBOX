@@ -1,0 +1,37 @@
+.
+├── params
+│   ├── fonts
+│   │   ├── NotoSansCJK-Black.ttc
+│   │   ├── NotoSansCJK-Bold.ttc
+│   │   ├── NotoSansCJK-DemiLight.ttc
+│   │   ├── NotoSansCJK-Light.ttc
+│   │   ├── NotoSansCJK-Medium.ttc
+│   │   ├── NotoSansCJK-Regular.ttc
+│   │   ├── NotoSansCJK-Thin.ttc
+│   │   ├── NotoSerifCJK-Black.ttc
+│   │   ├── NotoSerifCJK-Bold.ttc
+│   │   ├── NotoSerifCJK-ExtraLight.ttc
+│   │   ├── NotoSerifCJK-Light.ttc
+│   │   ├── NotoSerifCJK-Medium.ttc
+│   │   ├── NotoSerifCJK-Regular.ttc
+│   │   ├── NotoSerifCJK-SemiBold.ttc
+│   │   ├── TakaoGothic.ttf
+│   │   ├── TakaoMincho.ttf
+│   │   ├── TakaoPGothic.ttf
+│   │   ├── TakaoPMincho.ttf
+│   │   ├── fonts.txt
+│   │   ├── ipaexg.ttf
+│   │   ├── ipaexm.ttf
+│   │   ├── ipag.ttf
+│   │   ├── ipagp.ttf
+│   │   ├── ipam.ttf
+│   │   └── ipamp.ttf
+│   ├── fonts.json
+│   ├── kanji_label.csv
+│   └── params.json
+├── requirements.txt
+├── src
+│   └── generator.py
+└── tree.txt
+
+3 directories, 31 files

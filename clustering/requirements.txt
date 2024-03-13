@@ -1,0 +1,7 @@
+numpy
+panda
+Pillow==9.5.0
+opencv-python
+torch
+torchvision
+scikit-learn

@@ -1,0 +1,5 @@
+numpy
+panda
+Pillow
+opencv-python
+multiprocess
