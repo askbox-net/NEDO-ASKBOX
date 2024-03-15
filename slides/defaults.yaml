@@ -1,0 +1,28 @@
+
+# from: markdown_strict+raw_attribute
+from: markdown-implicit_figures
+to: beamer
+
+input-files:
+    - thirds-solution-report.md
+
+include-in-header:
+    - beamer.tex
+
+output-file: thirds-solution-report.pdf
+
+standalone: true
+pdf-engine: xelatex
+
+variables:
+    classoption:
+        # -pandoc
+        - unicode
+        # -10 pt
+        # - handout
+    colorlinks: true
+    theme:
+      - Copenhagen
+        #- metropolis
+    colortheme: seahorse
+    # navigation: frame

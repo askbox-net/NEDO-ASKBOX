@@ -49,10 +49,13 @@
 
 
 ## 関連リンク
+
+[「事前学習用画像データセット生成モジュール」の開発コンテストで入賞者を決定](https://www.nedo.go.jp/news/press/AA5_101725.html)
+
+[事前学習用画像データセット生成モジュールコンテストの説明会を開催します！](https://www.nedo.go.jp/events/CD_100182.html)
+
 [【特別対談】NEDO×AIST　事前学習用画像データセットを自動生成する、学習プロセス革新への挑戦](https://signate.jp/articles/features-dataset-20230825)
 
+[【招待制】事前学習用画像データセット生成モジュールコンテスト 本戦](https://signate.jp/competitions/1073)
+
 [事前学習用画像データセット生成モジュールコンテスト 予選](https://signate.jp/competitions/1071)
-
-[【招待制】 事前学習用画像データセット生成モジュールコンテスト 本戦](https://signate.jp/competitions/1073)
-
-

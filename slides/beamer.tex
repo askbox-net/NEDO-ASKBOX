@@ -1,0 +1,56 @@
+\usepackage{zxjatype}
+\usepackage[haranoaji]{zxjafont}
+\usepackage{bxjspandoc}
+
+\setbeamertemplate{headline}[text line]{}
+\setbeamertemplate{footline}{
+	\leavevmode\kern1em
+		NEDO x SIGNATE \href{https://signate.jp/competitions/1073}{【招待制】事前学習用画像データセット生成モジュールコンテスト 本戦} コンテストレポート
+		\hfill
+		\usebeamercolor[fg]{page number in head/foot}
+	\usebeamerfont{page number in head/foot}
+	\insertframenumber\,/\,\inserttotalframenumber\kern1em\vskip2pt
+}
+\linespread{1.2}\selectfont
+
+\titlegraphic{
+	{\includegraphics[height=1.2cm]{image/logo-nedo}\vss}
+} 
+
+\LetLtxMacro\latexincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{
+	\begin{center}
+	\latexincludegraphics[#1]{#2}
+	\end{center}}
+
+	\ifdefined\Shaded
+	\renewenvironment{Shaded}{\footnotesize\linespread{1.0}\selectfont}{}
+	\fi
+
+	\let\origVerbatim\verbatim
+	\let\origendverbatim\endverbatim
+	\renewenvironment{verbatim}{
+		\footnotesize\linespread{1.0}\selectfont
+			\begin{origVerbatim}
+	}{
+		\end{origVerbatim}
+	}
+\usepackage{bookmark}
+\usepackage{etoolbox}
+\makeatletter
+\let\nobookmarkbeamer@@frametitle\beamer@@frametitle
+\apptocmd{\beamer@@frametitle}{\only<1>{
+	\addtocontents{toc}{\protect\beamer@subsectionintoc{\the\c@section}{0}{#1}{\the\c@page}{\the\c@part}
+		{\the\beamer@tocsectionnumber}}
+	\bookmark[page=\the\c@page,level=3]{#1}
+}}
+{\message{** patching of \string\beamer@@frametitle succeeded **}}
+{\errmessage{** patching of \string\beamer@@frametitle failed **}}
+
+\pretocmd{\beamer@checknoslide}{
+	\let\beamer@@frametitle\nobookmarkbeamer@@frametitle
+}
+{\message{** patching of \string\beamer@checknoslide succeeded **}}
+{\errmessage{** patching of \string\beamer@checknoslide failed **}}
+\makeatother
+
