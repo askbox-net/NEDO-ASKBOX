@@ -1,3 +1,6 @@
+# Modules for Generating Pre-training Image Datasets Contest(Final Round)
+## The Challenge of Training AI without Natural Images
+
 # 事前学習用画像データセット生成モジュールコンテスト 本戦
 ## 自然画像を用いないAIの学習への挑戦
 
