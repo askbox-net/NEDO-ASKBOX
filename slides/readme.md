@@ -8,3 +8,8 @@ pandoc -s -f markdown-implicit_figures -t beamer -H beamer.tex --pdf-engine xela
 ```bash
 pandoc -d defaults.yaml
 ```
+
+# or
+```bash
+make
+```
